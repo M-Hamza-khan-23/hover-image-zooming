@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: black;
+}
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: lem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 220px;
+    height: 330px;
+}
+img:hover{
+    transform: scale(1.2);
+}
